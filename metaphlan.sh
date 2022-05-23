@@ -1,7 +1,7 @@
 #!/bin/bash
 #Author: Alejandro Castellanos Sanchez
 
-#### Usage
+#### Usage of MetaPhlAn
 # bash taxonomic_assignation_metaplhan.sh &> taxonomic_assignation_metaplhan.o
 
 # conda activate mpa
