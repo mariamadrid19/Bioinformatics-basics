@@ -1,16 +1,5 @@
 #!/bin/bash
 
-#SBATCH --job-name=G5_T7_02
-#SBATCH -p medium
-#SBATCH -N 1
-#SBATCH -n 8
-#SBATCH --cpus-per-task=4
-#SBATCH --mem=40000
-#SBATCH --time=5-00:00:00
-#SBATCH --mail-user=a.castellanoss@uniandes.edu.co
-#SBATCH --mail-type=ALL
-#SBATCH -o G5_T7_02.o
-
 # conda init bash
 # conda activate bowtie2-2.4.5
 module load bowtie2/2.4.5
