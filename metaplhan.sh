@@ -1,4 +1,5 @@
 #!/bin/bash
+#Author: Alejandro Castellanos Sanchez
 
 #### Usage
 # bash taxonomic_assignation_metaplhan.sh &> taxonomic_assignation_metaplhan.o
