@@ -4,7 +4,7 @@
 
 # Script to shorten the headers of a fasta file
 
-# Usage
+# USAGE
 # python shorten_fasta_headers.py file.fasta
 
 import sys
