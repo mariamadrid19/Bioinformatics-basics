@@ -1,4 +1,5 @@
 #!/bin/bash
+# AUTHOR: Alejandro Castellanos Sánchez
 
 # Script for genome assemblies submission to the ENA
 
@@ -29,6 +30,9 @@
 # FASTA	
 
 # Note that you should replace the XXX for the proper username and password
+
+# USAGE:
+# bash submit_genomes_ena.sh
 
 for i in *.tsv; do 
 	java -jar webin-cli-4.5.2.jar -context genome -manifest $i -username Webin-XXX -password XXX -submit; 
