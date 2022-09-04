@@ -19,7 +19,7 @@ with open(file_name,'r') as file:
     lines = file.readlines()
 
 # Create new fasta file with modifications
-with open(f'{file_name}_shortened.{extension}','w') as new_file:
+with open(f'{basename}_shortened.{extension}','w') as new_file:
     # Loop for changing the name of each header within the fasta file
     count = 0
     for l in lines:
